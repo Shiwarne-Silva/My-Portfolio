@@ -11,3 +11,13 @@ function opentab(tabname){
     event.currentTarget.classList.add("active-link")
     document.getElementById(tabname).classList.add("active-tab")
 }
+
+const scriptURL = 'https://script.google.com/macros/s/AKfycbzzd1bCv0fzA4pkzRk-yuyTuMZKf1UyeXXbiveP5VhsKmXlJHjBh8ScaVPqoSsV-bEm0A/exec'
+  const form = document.forms['submit-to-google-sheet']
+
+  form.addEventListener('submit', e => {
+    e.preventDefault()
+    fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+      .then(response => console.log('Success!', response))
+      .catch(error => console.error('Error!', error.message))
+  })
