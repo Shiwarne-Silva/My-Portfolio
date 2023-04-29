@@ -18,7 +18,8 @@
     "axe/structure": [
       "default",
       {
-        "listitem": "off"
+        "listitem": "off",
+        "list": "off"
       }
     ],
     "compat-api/css": [
@@ -28,6 +29,8 @@
           "width: fit-content"
         ]
       }
-    ]
+    ],
+    "detect-css-reflows/composite": "off",
+    "detect-css-reflows/layout": "off"
   }
 }
