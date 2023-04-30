@@ -394,3 +394,10 @@ form input, form textarea{
     background: #262626;
     font-weight: 300;
 }
+
+#msg{
+    color: #61b752;
+    margin-left: 20px;
+    margin-top: 10px;
+    display: block;
+}
