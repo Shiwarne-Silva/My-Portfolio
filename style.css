@@ -133,6 +133,11 @@ nav ul li a:hover::after{
     flex-basis: 60%;
 }
 
+.about-col-2 h3{
+    font-size: 19.1px;
+    -webkit-text-stroke: 0.5px #ff004f;
+}
+
 .random{
     font-size: 19px;
     font-style: oblique;
