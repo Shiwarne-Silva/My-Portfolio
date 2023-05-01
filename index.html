@@ -12,9 +12,20 @@
     <link rel="stylesheet" href="style.css">
     <script src="script.js"></script>
     <script src="https://kit.fontawesome.com/78f7302f59.js" crossorigin="anonymous"></script>
+    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
 </head>
 
 <body>
+
+    <!-- ----------------Auto-Typing-------------------- -->
+
+    <div id="animation">
+        <h1>Hi I'm <span class="auto-type"></span></h1>
+    </div>
+
+    <!-- ----------------Header-------------------- -->
+
+
     <div id="header">
         <div class="container">
             <nav>
@@ -226,6 +237,18 @@
             <p>Copyright © Shiwarne Silva</p>  
         </div>
     </div>
+
+
+    
+
+    <script>
+        var typed = new Typed(".auto-type", {
+            strings: ["Shiwarne Silva", "a Front-End Developer", "a UI Designer"],
+            typeSpeed: 100,
+            backSpeed: 100,
+            loop: true
+        })
+    </script>
 
     <script>
         const scriptURL = 'https://script.google.com/macros/s/AKfycbw4Y0iS5a-eN7CvyrpiShNPQJePJ2Q56YwibdWW1PmWlsBgK39s-VBAFhxBWi1OY_m2/exec'

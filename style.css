@@ -409,3 +409,19 @@ form input, form textarea{
     margin-top: 10px;
     margin-left: 18px;
 }
+
+/*------------------------Auto-Typing------------------------*/
+
+#animation{
+    width: 100%;
+    height: 100vh;
+    color: #ff004f;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#animation h1{
+    font-size: 80px;
+    font-weight: 600;
+}
