@@ -401,3 +401,9 @@ form input, form textarea{
     margin-top: 10px;
     display: block;
 }
+
+.contact-right h4{
+    color: #ff004f;
+    margin-top: 10px;
+    margin-left: 18px;
+}
