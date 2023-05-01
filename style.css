@@ -125,6 +125,7 @@ nav ul li a:hover::after{
 
 .about-col-1 img{
     width: 100%;
+    border: 3px solid #ff004f;
     border-radius: 15px;
 }
 
@@ -133,7 +134,7 @@ nav ul li a:hover::after{
 }
 
 .random{
-    font-size: 18px;
+    font-size: 19px;
     font-style: oblique;
     text-align: justify;
     line-height: 180%;
@@ -271,6 +272,7 @@ nav ul li a:hover::after{
 
 .work img{
     width: 100%;
+    border: 3px solid #ff004f;
     border-radius: 10px;
     display: block;
     transition: transform 0.5s;
