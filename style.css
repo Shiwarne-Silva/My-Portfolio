@@ -13,6 +13,7 @@ html{
 body{
     background: #080808;
     color: #fff;
+    cursor: default;
 }
 
 #progress{
@@ -34,12 +35,11 @@ body{
     height: calc(100% - 15px);
     width: calc(100% - 15px);
     margin-right: 2px;
-    background-color: #fff;
+    background-color: #080808;
     border-radius: 50%;
     display: grid;
     place-items: center;
     font-size: 35px;
-    color: #001a2e;
 }
 
 #progress-value i{
@@ -250,6 +250,7 @@ nav ul li a:hover::after{
     grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
     grid-gap: 40px;
     margin-top: 50px;
+    cursor: default;
 }
 
 .services-list div{
