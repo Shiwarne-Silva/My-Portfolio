@@ -51,6 +51,11 @@ nav ul li a{
     position: relative;
 }
 
+nav ul li i{
+    font-size: 19px;
+    margin-right: 6px;
+}
+
 nav ul li a::after{
     content: '';
     width: 0;
