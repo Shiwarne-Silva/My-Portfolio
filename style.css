@@ -506,3 +506,50 @@ form textarea {
   font-size: 30px;
   font-weight: 600;
 }
+
+.main-content {
+  width: 90%;
+  height: 29vh;
+  margin-top: 30px;
+  padding: 50px 40px;
+  background-color: #080808;
+  border-radius: 15px;
+  border: 0.1px solid #ff004f;
+  box-shadow: 0 25px 31px rgba(0, 0, 0, 0.5);
+}
+
+.text-area {
+  text-align: center;
+  font-size: 18px;
+  color: #ababab;
+  line-height: 1.5;
+  margin-top: 10px;
+}
+
+.main-content .writer {
+  text-transform: uppercase;
+  letter-spacing: 5px;
+  color: #ff004f;
+  text-align: center;
+  margin-top: 20px;
+  font-size: 20px;
+}
+
+.main-content .button-area {
+  display: grid;
+  position: relative;
+  place-items: center;
+  margin-top: 20px;
+  padding: 10px 0;
+}
+
+.button-area .btnqq button {
+  background-color: #262626;
+  color: #fff;
+  border-radius: 5px;
+  font-size: 11px;
+  cursor: pointer;
+  border: 1px solid #ff004f;
+  outline: none;
+  padding: 9px 10px;
+}

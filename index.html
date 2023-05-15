@@ -349,6 +349,17 @@
             <a href="Images/Shiwarne Silva CV.pdf" download class="btn"
               >Download CV</a
             >
+            <div class="main-content">
+              <div class="text-area">
+                <span class="quote">
+                  “First, solve the problem. Then, write the code.”
+                </span>
+              </div>
+              <div class="writer">John Johnson</div>
+              <div class="button-area">
+                <div class="btnqq"><button id="Qbtn">More Quotes</button></div>
+              </div>
+            </div>
           </div>
           <div class="contact-right">
             <br /><br /><br />
@@ -438,6 +449,78 @@
       };
       window.onscroll = calcScrollValue;
       window.onload = calcScrollValue;
+
+      const quotes = [
+        {
+          quote: `"Any fool can write code that a computer can understand. Good programmers write code that humans can understand.”`,
+          writer: `Martin Fowler`,
+        },
+        {
+          quote: `“Experience is the name everyone gives to their mistakes.”`,
+          writer: `Oscar Wilde`,
+        },
+        {
+          quote: `“ In order to be irreplaceable, one must always be different”`,
+          writer: `Coco Chanel`,
+        },
+        {
+          quote: `“Java is to Javascript what car is to Carpet.”`,
+          writer: `Chris Heilmann`,
+        },
+        {
+          quote: `“Knowledge is power”`,
+          writer: `Francis Bacon`,
+        },
+        {
+          quote: `“Sometimes it pays to stay in bed on Monday, rather than spending the rest of the week debugging Monday’s code.”`,
+          writer: `Dan Salomon`,
+        },
+        {
+          quote: `“Perfection is achieved not when there is nothing more to add, but rather when there is nothing more to take away.”`,
+          writer: `Antoine de Saint`,
+        },
+        {
+          quote: `“Ruby is rubbish! PHP is phpantastic!.`,
+          writer: `Nikita Popov`,
+        },
+        {
+          quote: `“ Code is like humor. When you have to explain it, it’s bad.”`,
+          writer: `Cory House`,
+        },
+        {
+          quote: `“Fix the cause, not the symptom.`,
+          writer: `Steve Maguire`,
+        },
+        {
+          quote: `“Optimism is an occupational hazard of programming: feedback is the treament.”`,
+          writer: `Kent Beck`,
+        },
+        {
+          quote: `“When to use iterative development? You should use iterative development only on projects that you want to succeed.”`,
+          writer: `Martin Fowler`,
+        },
+        {
+          quote: `“Simplicity is the soul of efficiency.”`,
+          writer: `Austin Freeman`,
+        },
+        {
+          quote: `“Before software can be reusable it first has to be usable.”`,
+          writer: `Ralph Johnson`,
+        },
+        {
+          quote: `“Make it work, make it right, make it fast.”`,
+          writer: `Kent Beck`,
+        },
+      ];
+      let btnqq = document.querySelector("#Qbtn");
+      let quote = document.querySelector(".quote");
+      let writer = document.querySelector(".writer");
+
+      btnqq.addEventListener("click", function () {
+        let random = Math.floor(Math.random() * quotes.length);
+        quote.innerHTML = quotes[random].quote;
+        writer.innerHTML = quotes[random].writer;
+      });
     </script>
   </body>
 </html>
